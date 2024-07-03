@@ -90,8 +90,12 @@ importers:
       '@tiptap/extension-underline': ^2.0.0-beta.23
       '@tiptap/react': ^2.0.0-beta.107
       '@tiptap/suggestion': ^2.0.0-beta.90
+      '@types/deep-equal': ^1.0.4
+      '@types/lodash.pick': ^4.4.9
       '@types/node': 17.0.13
       '@types/react': 17.0.38
+      '@types/react-dom': 17.0.11
+      '@types/react-lazy-load-image-component': ^1.6.3
       '@typescript-eslint/eslint-plugin': ^5.21.0
       '@typescript-eslint/parser': ^5.21.0
       axios: ^0.25.0
@@ -258,8 +262,12 @@ importers:
       viewerjs: 1.10.4
       yjs: 13.5.24
     devDependencies:
+      '@types/deep-equal': 1.0.4
+      '@types/lodash.pick': 4.4.9
       '@types/node': 17.0.13
       '@types/react': 17.0.38
+      '@types/react-dom': 17.0.11
+      '@types/react-lazy-load-image-component': 1.6.4
       '@typescript-eslint/eslint-plugin': 5.21.0_dfiv57mhlr77zvtqkxml443lt4
       '@typescript-eslint/parser': 5.21.0_sdq423wcawycjzugemfabbjutq
       copy-webpack-plugin: 11.0.0
@@ -3491,6 +3499,10 @@ packages:
       '@types/node': 17.0.35
     dev: true
 
+  /@types/deep-equal/1.0.4:
+    resolution: {integrity: sha512-tqdiS4otQP4KmY0PR3u6KbZ5EWvhNdUoS/jc93UuK23C220lOZ/9TvjfxdPcKvqwwDVtmtSCrnr0p/2dirAxkA==}
+    dev: true
+
   /@types/eslint-scope/3.7.3:
     resolution: {integrity: sha512-PB3ldyrcnAicT35TWPs5IcwKD8S333HMaa2VVv4+wdvebJkjWuW/xESoB8IwRcog8HYVYamb1g/R31Qv5Bx03g==}
     dependencies:
@@ -3582,6 +3594,12 @@ packages:
     dependencies:
       '@types/node': 16.11.21
     dev: false
+
+  /@types/lodash.pick/4.4.9:
+    resolution: {integrity: sha512-hDpr96x9xHClwy1KX4/RXRejqjDFTEGbEMT3t6wYSYeFDzxmMnSKB/xHIbktRlPj8Nii2g8L5dtFDRaNFBEzUQ==}
+    dependencies:
+      '@types/lodash': 4.14.182
+    dev: true
 
   /@types/lodash/4.14.182:
     resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
@@ -3719,6 +3737,19 @@ packages:
 
   /@types/range-parser/1.2.4:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
+
+  /@types/react-dom/17.0.11:
+    resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
+    dependencies:
+      '@types/react': 17.0.38
+    dev: true
+
+  /@types/react-lazy-load-image-component/1.6.4:
+    resolution: {integrity: sha512-8pFPeDPF4yVG4lU1/ixZidJEEDZmEOYOTYDvmIu2IAabyuv97Q7n/93nMCocHvQ7vD1czKGiW+op55D9m3MkdA==}
+    dependencies:
+      '@types/react': 17.0.38
+      csstype: 3.0.10
+    dev: true
 
   /@types/react/17.0.38:
     resolution: {integrity: sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==}
